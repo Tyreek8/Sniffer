@@ -1,0 +1,10 @@
+debug/about.o
+debug/capThread.o
+debug/filterdialog.o
+debug/main.o
+debug/mainwindow.o
+debug/qrc_picture.o
+debug/moc_about.o
+debug/moc_capThread.o
+debug/moc_filterdialog.o
+debug/moc_mainwindow.o

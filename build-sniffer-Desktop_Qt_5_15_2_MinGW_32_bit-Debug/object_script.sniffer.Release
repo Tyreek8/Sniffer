@@ -1,0 +1,10 @@
+release/about.o
+release/capThread.o
+release/filterdialog.o
+release/main.o
+release/mainwindow.o
+release/qrc_picture.o
+release/moc_about.o
+release/moc_capThread.o
+release/moc_filterdialog.o
+release/moc_mainwindow.o

@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../sniffer.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/new/pic">
+        <file>resource/sniffer.jpg</file>
+        <file>resource/bg.png</file>
+    </qresource>
+</RCC>
