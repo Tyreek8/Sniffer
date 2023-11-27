@@ -42,10 +42,10 @@ public:
     u_int netmask;  //此无符号整数表示网络掩码
     struct bpf_program fcode;   //此结构体表示过滤规则
     struct pcap_pkthdr *header; //这是一个指向数据包头的指针
-    const u_char *pkt_data; //该整数数组用于存储各种类型的数据包的数量
-    int pktCount[8];    //该布尔值表示是否停止捕获
+    const u_char *pkt_data; //这是一个指向数据包的数据部分的指针
+    int pktCount[8];    //该整数数组用于存储各种类型的数据包的数量
 
-    bool stopCapture;
+    bool stopCapture;   //该布尔值表示是否停止捕获
 
     //这是类的构造函数，用于初始化类的成员变量
     CapThread(QMainWindow *w, pcap_if_t *alldevs, int selectNaIndex, QString selectfilter);
